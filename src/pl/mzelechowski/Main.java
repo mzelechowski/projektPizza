@@ -12,7 +12,7 @@ public class Main {
 
         System.out.println(pineapplePizza);
 
-        Pizza pineapplePizza=new Pizza.Builder()
+        Pizza hamPizza=new Pizza.Builder()
                 .beans("fasoleczka")
                 .cheese("radamer")
                 .flour("zytani")
@@ -20,6 +20,6 @@ public class Main {
                 .ham("swojska")
                 .build();
 
-        System.out.println(pineapplePizza);
+        System.out.println(hamPizza);
     }
 }
