@@ -11,5 +11,15 @@ public class Main {
             .build();
 
         System.out.println(pineapplePizza);
+
+        Pizza pineapplePizza=new Pizza.Builder()
+                .beans("fasoleczka")
+                .cheese("radamer")
+                .flour("zytani")
+                .onion("Cebela")
+                .ham("swojska")
+                .build();
+
+        System.out.println(pineapplePizza);
     }
 }
